@@ -574,6 +574,7 @@ footer  p a:hover{
 }
 .logo-icon {
     display: none;
+    background: #00ACED;
 }
 div#page-wrapper {
     padding:2em 2em;
@@ -758,7 +759,7 @@ ul.dropdown-menu.drp-mnu li {
 }
 .profile_img i {
 	float: right;
-    margin: .5em 0 0;
+    margin: -4.5em 0 0 1em;
     color:#00BCD4;
 }
 .custom-nav .sub-menu-list > li .fa {
@@ -971,6 +972,15 @@ ul.nav li a span {
     content: '';
 }
 
+.title-h1 {
+    font-size: 1.5em;
+    width: 40px;
+    margin: .4em 0 0 1.5em;
+    cursor: pointer;
+    float: left;
+    color: deepskyblue;
+}
+
 .toggle-btn {
     font-size: 15px;
     padding: 10px 0 0;
@@ -1044,6 +1054,7 @@ ul.nav li a span {
     top: 0;
     left: 200px;
     width: 100%;
+    height: 3.2em;
     z-index: 100;
 }
 
@@ -1112,12 +1123,17 @@ a.yui {
 	color:#fff;
 	font-size:1.2em;
 }
+.user-welcome {
+    margin-top: 3px;
+}
 .profile_details_left {
     float: left;
-	margin: .3em 0 0 1em;
+	margin: .3em 0 0 46em;
+    display: flex;
 }
 .nofitications-dropdown{
 	margin-top:2px;
+    margin-left: 1em;
 }
 ul.nofitications-dropdown li {
     display: inline-block;
@@ -1713,7 +1729,7 @@ ul.dropdown-menu {
 /********* profile details **********/
 .profile_details{
 	float: right;
-    margin: 0 4.8em 0 1em;
+    margin: 0 8.8em -2em 1em;
 }
 .profile_details_drop .lnr.lnr-chevron-up{
 	display:none;
@@ -1734,7 +1750,7 @@ ul.dropdown-menu{
 }
 ul.dropdown-menu.drp-mnu {
     min-width: 125px;
-	top:94%;
+	top:60%;
 }
 ul.dropdown-menu.drp-mnu li a {
     display: inline-flex;
