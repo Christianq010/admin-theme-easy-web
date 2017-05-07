@@ -1855,6 +1855,9 @@ ul.dropdown-menu.drp-mnu li a i {
 .customers-search-buttons {
     padding-top: 0.5em;
 }
+.table-content-name {
+    margin: 0.5em 0 0 3.5em;
+}
 .col-md-6.col_1_of_2.span_1_of_2 {
     margin-bottom: 0.6em;
 }
