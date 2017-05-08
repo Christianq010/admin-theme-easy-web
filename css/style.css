@@ -574,7 +574,7 @@ footer  p a:hover{
 }
 .logo-icon {
     display: none;
-    background: #00ACED;
+    background: rgb(0, 120, 255);
 }
 div#page-wrapper {
     padding:2em 2em;
@@ -591,7 +591,7 @@ div#page-wrapper {
 }
 .logo-icon a i{
 	line-height: 1.4em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fff;
     padding-top: 10px;
     display: block;
@@ -825,7 +825,7 @@ margin-left: 0;
 }
 
 .left-side-collapsed .left-side {
-    width: 52px;
+    width: 48px;
     top: 0px;
 }
 
@@ -974,11 +974,12 @@ ul.nav li a span {
 
 .title-h1 {
     font-size: 1.5em;
+    font-weight: 700;
     width: 40px;
-    margin: .4em 0 0 1.5em;
+    margin: .4em 0 0 1.8em;
     cursor: pointer;
     float: left;
-    color: deepskyblue;
+    color: rgb(0, 120, 255);
 }
 
 .toggle-btn {
@@ -1056,6 +1057,7 @@ ul.nav li a span {
     width: 100%;
     height: 3.2em;
     z-index: 100;
+    background: rgb(255, 255, 255);
 }
 
 .sticky-header .main-content {
@@ -1124,7 +1126,10 @@ a.yui {
 	font-size:1.2em;
 }
 .user-welcome {
-    margin-top: 3px;
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: rgb(137, 152, 163);
 }
 .profile_details_left {
     float: left;
@@ -1139,7 +1144,7 @@ ul.nofitications-dropdown li {
     display: inline-block;
 }
 ul.dropdown-menu li {
-    margin-left: 0;
+    margin-left: -5px;
     width: 100%;
     padding: 0;
 	background: #fff;
@@ -1257,7 +1262,7 @@ ul.dropdown-menu li {
 	right: -10px;
 }
 .user-panel-top li:first-child{
-	margin-left:0;
+    margin-left: -5px;
 }
 .active a i,.act a i {
     color:#8BC34A;
@@ -1269,6 +1274,7 @@ ul.dropdown-menu li {
 .user-panel-top li a{
 	display: block;
 	padding: 5px;
+    margin-left: 1.1em;
 	text-decoration:none;
 }
 .profile_details_drop a {
@@ -1291,7 +1297,7 @@ i.fa.fa-tasks{
 	height:24px;
 	display: block;
 	text-align:center;
-	line-height:25px;
+	line-height:20px;
 }
 .user-panel-top li a i span{
 	font-size:15px;
