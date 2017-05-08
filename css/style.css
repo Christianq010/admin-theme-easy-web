@@ -7,7 +7,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
-p {margin: 0;}
+p {
+    margin: 0;
+    color: rgb(137, 152, 163);
+    font-size: 0.8em;
+}
 
 html, body{
   	font-family: 'Roboto', sans-serif;
@@ -1857,6 +1861,7 @@ ul.dropdown-menu.drp-mnu li a i {
 
 .main-content-table{
     padding: 3em;
+    background-color: rgb(238, 242, 245);
 }
 .customer-table-search-icon-row {
     margin: 0 0 0.5em 0;
@@ -1864,7 +1869,19 @@ ul.dropdown-menu.drp-mnu li a i {
 .customer-table-heading {
     margin: 0 0 1em 0;
     padding: 0.5em 0 0 0;
-    background: aqua;
+    background: rgb(228, 236, 245);
+}
+.table-p-font {
+    color: rgb(143,170,191);
+    font-size: 0.8em;
+}
+.table-upper-heading {
+    font-weight: 300;
+    color: rgb(48,78,102);
+}
+.table-heading-fonts {
+    font-size: 0.8em;
+    font-weight: 700;
 }
 .customers-search-buttons {
     padding-top: 0.5em;
