@@ -1882,8 +1882,8 @@ ul.dropdown-menu.drp-mnu li a i {
     margin: 0 0 0.5em 0;
 }
 .customer-table-heading {
-    margin: 0 0 1em 0;
-    padding: 0.5em 0 0 0;
+    margin: 0 0 0.1em 0;
+    padding: 0.8em 0 0 0;
     background: rgb(228, 236, 245);
 }
 .table-p-font {
@@ -1905,7 +1905,9 @@ ul.dropdown-menu.drp-mnu li a i {
     margin: 0 0 0 3.5em;
 }
 .customer-table-content{
-    margin: 0 0 1em 0;
+    padding: 1em 0 0.2em 0;
+    margin: 0 0 0.1em 0;
+    background: white;
 }
 .footer-content {
     margin: 0 0 0 7em;
