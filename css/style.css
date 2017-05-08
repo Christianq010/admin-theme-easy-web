@@ -1846,17 +1846,31 @@ ul.dropdown-menu.drp-mnu li a i {
     background-position:-8px -4px;
 }
 /*-----------------------------
-        MAIN CONTENT
+        MAIN CONTENT --------------------- incl Custom Content ----------------------
 ------------------------------*/
 
 .main-content-table{
     padding: 3em;
+}
+.customer-table-search-icon-row {
+    margin: 0 0 0.5em 0;
+}
+.customer-table-heading {
+    margin: 0 0 1em 0;
+    padding: 0.5em 0 0 0;
+    background: aqua;
 }
 .customers-search-buttons {
     padding-top: 0.5em;
 }
 .table-content-name {
     margin: 0.5em 0 0 3.5em;
+}
+.customer-table-content{
+    margin: 0 0 1em 0;
+}
+.footer-content {
+    margin: 0 0 0 7em;
 }
 .col-md-6.col_1_of_2.span_1_of_2 {
     margin-bottom: 0.6em;
