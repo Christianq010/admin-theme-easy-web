@@ -985,6 +985,14 @@ ul.nav li a span {
     float: left;
     color: rgb(0, 120, 255);
 }
+.blue-font {
+    color: rgb(0, 120, 255);
+    font-weight: 600;
+}
+.blue-font2 {
+    color: rgb(0, 120, 255);
+    font-weight: 400;
+}
 
 .toggle-btn {
     font-size: 15px;
@@ -1066,6 +1074,7 @@ ul.nav li a span {
 
 .sticky-header .main-content {
     padding-top: 50px;
+    background-color: rgb(238, 242, 245)
 }
 .sticky-header .menu-right {
     margin-right: 0;
@@ -1876,7 +1885,7 @@ ul.dropdown-menu.drp-mnu li a i {
 
 .main-content-table{
     padding: 3em;
-    background-color: rgb(238, 242, 245);
+    /*background-color: rgb(238, 242, 245);*/
 }
 .customer-table-search-icon-row {
     margin: 0 0 0.5em 0;
@@ -1908,6 +1917,13 @@ ul.dropdown-menu.drp-mnu li a i {
     padding: 1em 0 0.2em 0;
     margin: 0 0 0.1em 0;
     background: white;
+    cursor: pointer;
+}
+.customer-table-content-selected{
+    padding: 1em 0 0.2em 0;
+    margin: 0 0 0.1em 0;
+    background: rgb(246,250,255);
+    cursor: pointer;
 }
 .footer-content {
     margin: 0 0 0 7em;
@@ -3050,6 +3066,7 @@ span.badge1 {
     margin-bottom: 0.7em;
 }
 .btn-primary{
+    font-size: 0.7em;
 	background-color: rgb(0, 120, 255) !important;
     border-color: rgb(0, 120, 255) !important;
 	color: #fff;
@@ -3067,6 +3084,7 @@ span.badge1 {
     /*border: solid;*/
 }
 .btn-transparent {
+    font-size: 0.7em;
     background-color: transparent;
     border-color: transparent;
     color: rgb(137, 152, 163);
