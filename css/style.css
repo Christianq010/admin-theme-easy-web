@@ -10,7 +10,7 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 
 html, body{
-  	font-family: 'Cabin', sans-serif;
+  	font-family: 'Roboto', sans-serif;
     font-size: 100%;
   	overflow-x: hidden;
 	background: #f9f9f9;
@@ -33,7 +33,7 @@ a:focus, a:active, a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .icons {
     margin: 2em 2em;
