@@ -1935,6 +1935,9 @@ ul.dropdown-menu.drp-mnu li a i {
 .bottom-page-number {
     margin-top: 2.5em;
 }
+.bottom-page-paragraph {
+    margin-top: 0.25em;
+}
 .footer-content {
     margin: 0 0 0 7em;
 }
@@ -3074,6 +3077,20 @@ span.badge1 {
 }
 .but_list h1,.but_list h2,.but_list h3,.but_list h4,.but_list h5 {
     margin-bottom: 0.7em;
+}
+.btn-circle {
+    background: transparent;
+    border: solid;
+    border-width: thin;
+    border-color: rgba(137, 152, 163, 0.4);
+    color: grey;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 10px;
+    line-height: 1.428571429;
+    border-radius: 15px;
 }
 .btn-primary{
     font-size: 0.6em;
