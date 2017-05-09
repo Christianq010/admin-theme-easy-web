@@ -1888,7 +1888,7 @@ ul.dropdown-menu.drp-mnu li a i {
     /*background-color: rgb(238, 242, 245);*/
 }
 .customer-table-search-icon-row {
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.5em -0.7em;
 }
 .customer-table-heading {
     margin: 0 0 0.1em 0;
@@ -1909,6 +1909,7 @@ ul.dropdown-menu.drp-mnu li a i {
 }
 .customers-search-buttons {
     padding-top: 1em;
+    margin-left: 5em;
 }
 .table-content-name {
     margin: 0 0 0 3.5em;
@@ -1924,6 +1925,9 @@ ul.dropdown-menu.drp-mnu li a i {
     margin: 0 0 0.1em 0;
     background: rgb(246,250,255);
     cursor: pointer;
+}
+.bottom-page-number {
+    margin-top: 2.5em;
 }
 .footer-content {
     margin: 0 0 0 7em;
@@ -3066,7 +3070,8 @@ span.badge1 {
     margin-bottom: 0.7em;
 }
 .btn-primary{
-    font-size: 0.7em;
+    font-size: 0.6em;
+    font-weight: 600;
 	background-color: rgb(0, 120, 255) !important;
     border-color: rgb(0, 120, 255) !important;
 	color: #fff;
@@ -3090,6 +3095,15 @@ span.badge1 {
     color: rgb(137, 152, 163);
     padding: 6px 10px;
 }
+.btn-transparent-search {
+    font-size: 0.7em;
+    background-color: transparent;
+    color: rgba(137, 152, 163, 0.42);
+    padding: 6px 10px;
+    border-right: solid;
+    border-radius: 1px;
+    border-width: thin;
+}
 .btn-primary:hover{
 	background-color: #8BC34A !important;
     border-color: #8BC34A !important;
@@ -3097,6 +3111,9 @@ span.badge1 {
 }
 .caret {
     padding-left: 0 !important;
+}
+.btn .caret {
+     margin-left: 1em;
 }
 .table-caret {
     margin: 0 0 1em 1em;
