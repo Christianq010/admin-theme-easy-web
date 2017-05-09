@@ -1290,6 +1290,11 @@ ul.dropdown-menu li {
     margin-left: 1.1em;
 	text-decoration:none;
 }
+.lnr-chevron-down:before {
+    content: "\e874";
+    font-size: smaller;
+    color: rgb(137, 152, 163);
+}
 .profile_details_drop a {
     padding: 0px 5px 5px !important;
 }
@@ -1885,10 +1890,11 @@ ul.dropdown-menu.drp-mnu li a i {
 
 .main-content-table{
     padding: 3em;
+    margin-right: 5em;
     /*background-color: rgb(238, 242, 245);*/
 }
 .customer-table-search-icon-row {
-    margin: 0 0 0.5em -0.7em;
+    /*margin: 0 0 0.5em -0.7em;*/
 }
 .customer-table-heading {
     margin: 0 0 0.1em 0;
@@ -1909,7 +1915,7 @@ ul.dropdown-menu.drp-mnu li a i {
 }
 .customers-search-buttons {
     padding-top: 1em;
-    margin-left: 5em;
+    margin-left: 5.3em;
 }
 .table-content-name {
     margin: 0 0 0 3.5em;
