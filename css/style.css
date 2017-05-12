@@ -1889,7 +1889,7 @@ ul.dropdown-menu.drp-mnu li a i {
 ------------------------------*/
 
 .main-content-table{
-    padding: 3em;
+    padding: 3em 3em 1em 3em;
     margin-right: 5em;
     /*background-color: rgb(238, 242, 245);*/
 }
@@ -1933,10 +1933,16 @@ ul.dropdown-menu.drp-mnu li a i {
     cursor: pointer;
 }
 .bottom-page-number {
-    margin-top: 2.5em;
+    /*margin-top: 2.5em;*/
 }
 .bottom-page-paragraph {
-    margin-top: 0.25em;
+    margin-top: 1.15em;
+    margin-left: 3.2em;
+}
+.bottom-page-pageButtons {
+    margin-top: 0.7em;
+    padding: 0;
+    margin-left: 1em;
 }
 .footer-content {
     margin: 0 0 0 7em;
@@ -3092,6 +3098,20 @@ span.badge1 {
     line-height: 1.428571429;
     border-radius: 15px;
 }
+.btn-circle-selected {
+    border: solid;
+    border-width: thin;
+    color: #fff!important;
+    background-color: rgb(0, 120, 255);
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
 .btn-primary{
     font-size: 0.6em;
     font-weight: 600;
@@ -3126,6 +3146,21 @@ span.badge1 {
     border-right: solid;
     border-radius: 1px;
     border-width: thin;
+}
+.btn-profile-add {
+    color: #fff!important;
+    background-color: rgb(0, 120, 255);
+    font-size: 22px;
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 18px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
 }
 .btn-primary:hover{
 	background-color: #8BC34A !important;
